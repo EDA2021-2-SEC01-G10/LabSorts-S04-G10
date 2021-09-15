@@ -123,9 +123,7 @@ while True:
         printAuthorData(author)
 
     elif int(inputs[0]) == 4:
-        label = 3
-        3
-        0 ta a buscar: ")
+        label = input("Etiqueta a buscar: ")
         book_count = controller.countBooksByTag(catalog, label)
         print('Se encontraron: ', book_count, ' Libros')
 
